@@ -1,0 +1,22 @@
+# CMake - cvièení
+
+1. Vytvoøte CMake projekt pro sestavení spustitelného souboru math.exe ze zdrojového souboru main.c.
+2. Sestavte program pomocí MinGW
+   - vygenerujte Makefile pomocí CMake GUI
+   - sestavte pomocí mingw32-make
+3. Sestavte program pomocí Visual Studia
+   - vygenerujte VS projekt pomocí CMake GUI
+   - sestavte projekt v IDE
+4. Sestavte statickou knihovnu my-math ze souborù my-math.c a my-math.h
+5. Pøilinkujte knihovnu k math.exe
+6. Pomocí CMake zaøide vyuití vlastní matematické knihovny namísto systémové
+7. Podmiòte sestavení a pouití vlastní knihovny uivatelskım pøepínaèem
+8. Rozèleòte projekt do více souborù
+
+---
+
+## Bonusové úkoly:
+9.  Sestavte dynamickou knihovnu namísto statické a pøedveïte funkènost sestaveného programu
+10. Vytvoøte balíèek obsahující knihovnu a pouijte jej v jiném projektu
+    - pomocí promìnnıch
+    - vytvoøením importovaného cíle
